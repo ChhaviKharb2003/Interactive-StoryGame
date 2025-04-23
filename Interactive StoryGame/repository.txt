@@ -1,0 +1,8 @@
+🧪 How to Run
+Create the folder interactive-story/
+
+Add the files: index.html, style.css, script.js
+
+Create assets/ folder: Add music.mp3 and forest.jpg
+
+Open index.html in your browser.

@@ -1,0 +1,44 @@
+body
+h1 {
+    text-shadow: 0 0 10px #fff, 0 0 20px #0f0, 0 0 30px #0f0;
+  }
+   {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background: url('assets/forest.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+  }
+  
+  #game {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    width: 60%;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  
